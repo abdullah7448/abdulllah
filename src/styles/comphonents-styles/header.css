@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background: black;
+}
+.container{
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0px;
+   
+}
+
+.header-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    color: white;
+    background-color:#17123A;
+    margin-top: 6px;
+    padding: 10px 20px 10px 20px;
+    
+    
+}
+.name a{
+   color: white; 
+}
+.navigation nav ul{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 0px;
+}
+
+.navigation nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}
+.navigation nav ul li a:hover{
+    border-bottom: 2px pink solid;
+    
+}
+.icon svg{
+    font-size: 26px;
+}
+.icon svg:hover{
+    cursor: pointer;
+}
+.active{
+    border-radius: 10px;
+    background: #39393a;
+
+}
+.mobActive{
+    color: rgb(128, 33, 33) !important;
+    background: #c0bfc2;
+   
+}
+@media only screen and (min-width:320px){
+    .navigation{
+        display: none;
+        
+    }
+}
+@media only screen and (min-width:767px){
+    .navigation{
+        display: block;
+    }
+    .icon{
+        display: none;
+    }
+}
+/* mobileMenu */
+.mobile_nav{
+    width: 200px;
+    position: absolute;
+    right: 0px;
+   opacity: 0;
+   transition: all 0.2s ease-in-out;
+    /* transition: all 5s; */
+}
+.show{
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+
+}
+.hide{
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+   
+}
+.mobile_nav a{
+   color: black;
+   font-size: 18px;
+   width: 100%;
+   padding: 10px 0px 10px 0px;
+display: block;
+}
+.mobile_nav ul li{
+   text-align: center;
+   background-color: aliceblue;
+   width: 100%;
+}
+.mobile_nav ul li:hover{
+    background: #c0bfc2;
+}
+@media only screen and (min-width:767px){
+   .mobile_nav{
+        display: none;
+    }
+}

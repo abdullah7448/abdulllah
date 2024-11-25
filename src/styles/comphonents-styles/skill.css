@@ -1,0 +1,62 @@
+.skill{
+    background-image: linear-gradient(to left, rgb(63, 61, 61),rgb(249, 3, 204) ,black, #08a7e5);
+    padding: 50px 50px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgba(102, 241, 188, 0.945);
+}
+.heading h2{
+    font-size:50px;
+}
+.heading img{
+    height: 60px;
+    object-fit: cover;
+}
+@media only screen and (min-width:320px){
+    .heading img{
+        display: none;
+    } 
+}
+@media only screen and (min-width:760px){
+    .heading img{
+        display: block;
+    } 
+}
+.skill_progress{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 80px;
+    justify-content: center;
+    align-items: center;
+}
+.single_skill_item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.view{
+    transform: translateX(0px) !important;
+    opacity: 1 !important;
+}
+.skill_name{
+    display: flex;
+    justify-content: space-between;
+}
+.skill_name h3 , .skill span{
+    font-size: 22px;
+    color:white;
+}
+.progress{
+    width: 100%;
+    max-width: 400px;
+    height: 5px;
+    background-color: aliceblue;
+}

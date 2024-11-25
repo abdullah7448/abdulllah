@@ -1,0 +1,30 @@
+.footer{
+    background: rgb(59, 50, 91);
+    padding: 20px;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_wrapper h3{
+ color: white;
+ text-align: center;   
+}
+.myLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.footer_icon{
+    color:white;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.footer_icon:hover{
+    opacity: 60%;
+    cursor: pointer;
+}

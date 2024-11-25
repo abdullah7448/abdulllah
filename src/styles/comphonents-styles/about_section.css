@@ -1,0 +1,190 @@
+.about_section{
+    position: relative;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background:black;
+}
+
+.about_section_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+@media only screen and (min-width:767px){
+    .about_section_wrapper{
+        flex-direction: row;
+    } 
+}
+.image_work{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+@media only screen and (min-width:320px){
+    .image_work{
+        width: 100%;
+    }  
+    .image_work img{
+        width: 250px;
+        height: 250px;
+        animation:imageAnimation linear;
+        animation-timeline: view();
+    }
+}
+@media only screen and (min-width:767px){
+    .image_work{
+        width: 50%;
+    }  
+    .image_work img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.image_work img {
+    border-radius: 50%;
+        opacity: 30%;
+    }
+.image_work h1{
+        font-size: 60px;
+        position: absolute;
+        right: 168px;
+        width: 5%;
+        line-height: 100%;
+    }
+    @media only screen and (min-width:320px){
+        .text_about_me{
+            width: 100%;
+        }
+    }
+    @media only screen and (min-width:767px){
+        .text_about_me{
+            width: 50%;
+        }
+    }
+
+.text_about_me img{
+      margin-left: 30%;
+      animation:arrowAnimation linear;
+      animation-timeline: view();
+      display: block;
+     }
+     @media only screen and (min-width:320px){
+        .text_about_me img{
+            display: none;
+           }
+     }
+     @media only screen and (min-width:767px){
+        .text_about_me img{
+            display: block;
+           }
+     }
+
+.text_about_me p{
+        padding-top: 20px;
+        max-width: 400px;
+        margin:  0 auto;
+    }
+.contact_button_about{
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.contact_button_about .Link{
+            background-color: #B11DB1;
+            border-radius: 20px;
+            width: 120px;
+            height: 40px;
+            border: 2px black solid;
+            transition: all 0.3s ease-in-out;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            padding: 6px;
+    }
+.contact_button_about .Link:hover{
+    border:  2px #B11DB1 solid ;
+    background: unset;
+}        
+.contact_button_about img{
+            width: 50%;
+            position: absolute;
+            top: 70px;
+        }
+
+
+
+/* button animation */
+.contact button::after,.contact button::before{
+content:"";
+width: 150px;
+height: 150px;
+background-color:rgb(16, 1, 1);
+position: absolute;border-radius: 50%;
+top: -54px;
+right:-12%;
+animation: scale_2 2s infinite ;
+z-index: 2;
+}
+.contact button::after{
+animation: scale_1 2s infinite ;
+
+}
+.contact button{
+overflow:hidden !important;
+position:relative
+}
+
+@keyframes scale_1 {
+0% {
+transform: scale(0);
+opacity: 100%;
+}
+30%{
+transform: scale(0);
+opacity: 100%;
+}
+100% {
+transform: scale(1);
+opacity: 0%;
+}
+}
+@keyframes scale_2 {
+0% {
+transform: scale(0);
+opacity: 100%;
+}
+100% {
+transform: scale(1);
+opacity: 5%;
+}
+}
+
+
+/* scrool animation img*/
+
+@keyframes imageAnimation{
+    from{
+        transform:rotate(180deg);
+        opacity: 0%;
+    }
+    to{
+        transform: rotate(0deg);
+        opacity: 100%;
+    }
+}
+/* scroll arrow amimation */
+@keyframes arrowAnimation{
+    from{
+        transform:translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+       
+    }
+}

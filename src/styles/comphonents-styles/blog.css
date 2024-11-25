@@ -1,0 +1,73 @@
+.blogs{
+    padding: 50px 10px 50px 10px;
+    background-image: linear-gradient(to right, rgb(121, 99, 102), rgb(142, 142, 89));
+}
+.blog_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all_blog_head h2{
+    font-size: 32px;
+    color: white;
+}
+.heading_blog{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.heading_blog .Link{
+    display: block;
+    width: 130px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    border: 2px dotted yellow;
+    transition: all 0.3s ease-in-out;
+}
+.heading_blog .Link:hover{
+    border: 2px solid rgb(244, 244, 239);
+}
+.heading_blog h2{
+    font-size: 40px;
+    color: white;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 40px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.card{
+    width: 300px;
+    box-shadow: 0px 0px 5px rgb(1, 198, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover img{
+    transform: skewX(0deg); 
+}
+.card img{
+    width: 100%;
+    transform: skewX(-10deg);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgb(102, 6, 227);
+}
+.card h5{
+    color: white;
+    padding: 8px;
+}
+
