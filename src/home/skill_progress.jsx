@@ -6,13 +6,14 @@ export default function Skill_Progress(){
         {skillId:1, skillName: "HTML5", progress: 80},
         {skillId:2, skillName: "Css3", progress: 80},
         {skillId:3, skillName: "Bootstrap", progress: 80},
-        {skillId:4, skillName: "Telwind", progress: 80},
+        {skillId:4, skillName: "Tailwind", progress: 80},
         {skillId:5, skillName: "JavaScript", progress: 80},
         {skillId:6, skillName: "REACT", progress: 80},
         {skillId:7, skillName: "Node js", progress: 80},
-        {skillId:8, skillName: "MONGO DB", progress: 80},
+        {skillId:11, skillName: "jQuery", progress: 80}
         {skillId:9, skillName: "PHP", progress: 80},
         {skillId:10, skillName: "MySQL", progress: 80},
+        
         
     ];
     
