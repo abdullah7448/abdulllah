@@ -38,8 +38,7 @@ export default function Designation() {
       <div className="text">
         <h1>Md Abdullah</h1>
        <h3 id="typers" ref={textRef}></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Ad ratione non tempore consectetur.
+        <p>Want something more specific to your WordPress and React Site? 😊
         </p>
       </div>
     </>

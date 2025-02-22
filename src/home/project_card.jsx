@@ -33,7 +33,8 @@ card_item.forEach((card_item)=>{
                 <div className="project_info">
                     <h2>{projects.project_name}</h2>
                     <h4>{projects.date}</h4>
-                    <a href={projects.link}>VIEW </a> 
+                    <a href={projects.link} target="blank">VIEW </a> 
+             
                 </div>
             </div>
         </>

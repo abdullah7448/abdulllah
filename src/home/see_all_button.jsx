@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
 import "../styles/comphonents-styles/projects.css"
 export default function SeeAllButton(){
     return(
         <>
-            <a href="#">See All</a> 
+            {/* //<Link></a>  */}
+            <Link  to="/projects">See All</Link>
         </>
     )
 }
