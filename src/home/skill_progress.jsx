@@ -10,7 +10,7 @@ export default function Skill_Progress(){
         {skillId:5, skillName: "JavaScript", progress: 80},
         {skillId:6, skillName: "REACT", progress: 80},
         {skillId:7, skillName: "Node js", progress: 80},
-        {skillId:11, skillName: "jQuery", progress: 80}
+        {skillId:11, skillName: "jQuery", progress: 80},
         {skillId:9, skillName: "PHP", progress: 80},
         {skillId:10, skillName: "MySQL", progress: 80},
         
