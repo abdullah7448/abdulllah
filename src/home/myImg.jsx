@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faDownload} from '@fortawesome/free-solid-svg-icons'
 import myImg from "../assets/image/myDp.jpg"
-import cv from "../assets/text-file/v11-portfolio.pdf"
+import cv from "../assets/text-file/abdullah-cv.pdf"
 export default function My_img(){
     return(
         <>
