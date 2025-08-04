@@ -14,7 +14,7 @@ export default function Footer(){
                         <div className="myLinks">
 
                         <li><a href="https://www.facebook.com/abdullah7448" target="blank" ><FaFacebookSquare className="footer_icon"/></a></li>
-                    <li><a href="https://www.instagram.com/f.abdullah7448/" target="blank" ><FaInstagramSquare className="footer_icon" /></a></li>
+                    <li><a href="https://www.instagram.com/_.md.abdullah/" target="blank" ><FaInstagramSquare className="footer_icon" /></a></li>
                     <li><a href="https://www.linkedin.com/in/md-abdullah7448/" target="blank" ><FaLinkedin className="footer_icon" /></a></li>
                     <li><a href="https://github.com/abdullah7448" target="blank" ><FaGithubSquare  className="footer_icon" /></a></li>
                     <li><a href="https://x.com/abdullah657448"  target="blank" ><FaSquareXTwitter className="footer_icon" /></a></li>

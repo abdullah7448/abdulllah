@@ -1,7 +1,7 @@
 import "../styles/comphonents-styles/projects.css"
 import card_img from "../assets/image/e_commerce_card.jpg"
-import travel_grp from "../assets/image/travel-grp.png"
-import american_food from "../assets/image/american-food.png"
+import wp_next from "../assets/image/wp-next.png"
+import bkrause from "../assets/image/bkrause.png"
 import ProjectCard from "./project_card"
 import SeeAllButton from "./see_all_button"
 
@@ -11,17 +11,17 @@ export default function Projects(){
     const projects = [
         {
             id:1,
-            image: travel_grp,
-            project_name: "Travel Agent",
-            date: "25 Dec, 2023",
-            link:"https://travel-group.netlify.app/"
+            image: wp_next,
+            project_name: "Headless Wordpress(wp-next)",
+            date: "03 Sept, 2025",
+            link:"https://wp-next-blue.vercel.app/"
         },
         {
             id:2,
-            image:american_food,
-            project_name: "Ameriran Food",
-            date: "10 Jan, 2024",
-            link:"https://aquamarine-cactus-a694d9.netlify.app/"
+            image: bkrause,
+            project_name: "bkrause(live-project)",
+            date: "15 june, 2025",
+            link:"https://bkrause.softvenceomega.com/"
         }
     ]
     
